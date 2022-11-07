@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/css/home.css" />
+    <link rel="stylesheet" href="src/css/navbar.css" />
   </head>
   <body>
     <script
@@ -24,40 +25,22 @@
       crossorigin="anonymous"
     ></script>
     <header>
-      <div class="container-fluid flex-column">
-        <div class="row">
-          <div class="col-sm">
-            <a class="navbar-brand" href="#">
-              <img
-                src="src/img/Logo.svg"
-                width="40"
-                height="40"
-                class="d-inline-block align-top color"
-                alt=""
-              />
-              Blanja
-            </a>
-          </div>
-          <div class="col-sm">
-            <input
-              class="form-control form-control"
-              type="text"
-              placeholder=".form-control-lg"
-              aria-label=".form-control-lg example"
-            />
-          </div>
-          <div class="col-md flex-column menu">
-            <img src="src/img/Pasir.svg" alt="" />
-            <img src="src/img/Trailer.png" alt="" style="margin-left: 180px" />
-            <img src="/src/img/Bell.png" alt="" style="margin-left: 44px" />
-            <img src="/src/img/Mail.png" alt="" tyle="margin-left: 44px" />
-            <img
-              src="/src/img/pp.svg"
-              class="rounded-circle;"
-              alt=""
-              tyle="margin-left: 44px"
-            />
-          </div>
+      <div class="row w-80 h-100">
+        <div class="col-2 align-items-center d-flex logo-nav">
+          <img class="logo" src="src/img/Logo.svg" alt="" />
+          <h3 class="logo">Blanja</h3>
+        </div>
+        <div class="col-8 align-items-center d-flex h-100">
+          <input class="search" type="text" placeholder="   search" />
+          <img class="logo-search" src="src/img/search.svg" alt="" />
+        </div>
+        <div
+          class="col-2 align-items-center justify-content-between h-100 menu-header"
+        >
+          <img class="cart" src="src/img/cart.svg" alt="" />
+          <img src="src/img/bell.svg" alt="" class="bell" />
+          <img src="src/img/mail.svg" alt="" class="mail" />
+          <img src="src/img/Profile.svg" alt="" class="profile-nav" />
         </div>
       </div>
     </header>

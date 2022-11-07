@@ -1,3 +1,13 @@
+@font-face {
+  font-family: metropolis;
+  src: url("../font/Metropolis-Regular.ttf");
+}
+* {
+  font-family: metropolis, "sans-serif";
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
 .html {
   background: #e5e5e5;
 }
@@ -26,11 +36,20 @@
   color: #222222;
 }
 
-.header {
-  background: #ffffff;
-  box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+.p-checkout {
+  margin-top: 28px;
+  margin-bottom: 0px;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 34px;
+  color: #222222;
 }
 
-.header.span {
-  font-size: 30px;
+.p-ship {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 34px;
+  color: #222222;
 }

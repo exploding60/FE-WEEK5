@@ -1,6 +1,14 @@
+@font-face {
+  font-family: metropolis;
+  src: url("../font/Metropolis-Regular.ttf");
+}
+* {
+  font-family: metropolis, "sans-serif";
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
 h1 {
-  font-family: "Metropolis";
-  font-style: normal;
   font-weight: 700;
 
   /* identical to box height, or 71% */

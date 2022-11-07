@@ -11,44 +11,32 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/css/bag.css" />
+    <link rel="stylesheet" href="src/css/navbar.css" />
   </head>
   <body>
-    <header
-      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4"
-      style="box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25)"
-    >
-      <a class="navbar-brand" href="#">
-        <img
-          src="src/img/Logo.svg"
-          alt="Logo"
-          width="30"
-          height="24"
-          class="d-inline-block align-text-top"
-          style="margin-left: 120px"
-        />
-        Bootstrap
-      </a>
-      <form
-        class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"
-        role="search"
-      >
-        <input
-          type="search"
-          class="form-control"
-          placeholder="Search..."
-          aria-label="Search"
-        />
-      </form>
-      <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary me-2">
-          Login
-        </button>
-        <button type="button" class="btn btn-primary">Sign-up</button>
+    <header>
+      <div class="row w-80 h-100">
+        <div class="col-2 align-items-center d-flex logo-nav">
+          <img class="logo" src="src/img/Logo.svg" alt="" />
+          <h3 class="logo">Blanja</h3>
+        </div>
+        <div class="col-8 align-items-center d-flex h-100">
+          <input class="search" type="text" placeholder="   search" />
+          <img class="logo-search" src="src/img/search.svg" alt="" />
+        </div>
+        <div
+          class="col-2 align-items-center justify-content-between h-100 menu-header"
+        >
+          <img class="cart" src="src/img/cart.svg" alt="" />
+          <img src="src/img/bell.svg" alt="" class="bell" />
+          <img src="src/img/mail.svg" alt="" class="mail" />
+          <img src="src/img/Profile.svg" alt="" class="profile-nav" />
+        </div>
       </div>
     </header>
 
     <div class="container">
-      <div><h2>My Bag</h2></div>
+      <div><h2 style="margin-bottom: 15px">My Bag</h2></div>
       <div style="width: 60%; float: left">
         <div class="card" style="width: 650px; height: 64px">
           <div class="card-body row">
@@ -65,7 +53,7 @@
               <p>Select All Item</p>
             </div>
             <div>
-              <p style="margin-left: 415px"><b>$ 40.0</b></p>
+              <p style="margin-left: 393px"><b>$ 40.0</b></p>
             </div>
           </div>
         </div>
