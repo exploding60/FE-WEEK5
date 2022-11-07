@@ -1,0 +1,68 @@
+.navbar-brand {
+  color: #db3022;
+  font-size: 24px;
+}
+
+html,
+body {
+  background-color: white;
+}
+
+.body {
+  flex: around;
+}
+.container {
+  background: #ffffff;
+  box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+  width: 100%;
+}
+
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 0px;
+}
+
+.card {
+  margin-bottom: 20px;
+  margin-left: 28px;
+  background: #ffffff;
+  box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+  border-radius: 8px;
+  width: 208px;
+  height: 278px;
+}
+
+.container.card-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card p.Nama {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card p.harga {
+  color: #db3022;
+}
+.card .image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card .card-body {
+  margin-top: 110px;
+}
+
+.raing span {
+  font-size: 1px;
+}
