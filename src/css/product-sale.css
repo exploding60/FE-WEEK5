@@ -1,0 +1,55 @@
+.sidebar {
+  background-color: aqua;
+  height: 100%;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 25%;
+  height: 100%;
+}
+.header {
+  position: fixed;
+}
+.profile img {
+  border-radius: 50%;
+}
+
+.profile {
+  margin-top: 40px;
+}
+
+nav {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 25%;
+  height: 100%;
+}
+
+.card {
+  width: 640px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.card {
+  padding-bottom: 20px;
+  border-radius: 0px;
+}
+
+.profile {
+  margin-left: 50px;
+}
+
+.menu {
+  margin-left: 50px;
+}
+
+.dropdown h4 {
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  margin-left: 100px;
+}
