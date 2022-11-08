@@ -1,0 +1,12 @@
+body {
+  background: white;
+}
+.card {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+  border-radius: 8px;
+  width: 208px;
+  height: 248px;
+}
